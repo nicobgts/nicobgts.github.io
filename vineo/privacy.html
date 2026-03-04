@@ -98,8 +98,16 @@
     <ul>
         <li>L'application génère un identifiant unique anonyme (UUID) stocké localement sur votre appareil</li>
         <li>Cet identifiant ne permet pas de vous identifier personnellement</li>
-        <li>Il est utilisé uniquement pour prévenir les abus du service et garantir une utilisation équitable</li>
+        <li>Il est utilisé pour prévenir les abus du service et pour les statistiques d'usage anonymes</li>
         <li>Il est transmis à nos serveurs lors des analyses et recommandations, mais n'est jamais associé à vos données personnelles</li>
+    </ul>
+
+    <p><strong>Données analytiques anonymes :</strong></p>
+    <ul>
+        <li>Nous collectons des événements d'usage anonymes (ex : scan d'étiquette, consultation du paywall) via PostHog</li>
+        <li>Ces données ne contiennent aucune information personnelle identifiable</li>
+        <li>Elles sont utilisées uniquement pour améliorer l'application</li>
+        <li>Elles ne sont jamais revendues ni utilisées à des fins publicitaires</li>
     </ul>
 
     <h2>2. Utilisation des données</h2>
@@ -108,12 +116,15 @@
         <li>Faire fonctionner l'application sur votre appareil</li>
         <li>Analyser les étiquettes de vin via notre service IA</li>
         <li>Générer des recommandations d'accords mets-vins</li>
+        <li>Améliorer l'application grâce aux statistiques d'usage anonymes</li>
     </ul>
 
     <h2>3. Partage des données</h2>
     <p>Nous ne vendons, ne louons et ne partageons pas vos données personnelles avec des tiers, sauf :</p>
     <ul>
         <li><strong>Services d'IA :</strong> Les photos d'étiquettes sont envoyées à notre API backend pour analyse. Ces images sont traitées en temps réel et ne sont pas conservées.</li>
+        <li><strong>PostHog :</strong> Service d'analytics utilisé pour collecter des événements d'usage anonymes. Données hébergées en Europe (UE). <a href="https://posthog.com/privacy">Politique de confidentialité PostHog</a>.</li>
+        <li><strong>RevenueCat :</strong> Gestion des abonnements Premium. RevenueCat traite les informations de transaction selon sa propre politique de confidentialité. <a href="https://www.revenuecat.com/privacy">Politique de confidentialité RevenueCat</a>.</li>
         <li><strong>Apple (iCloud) :</strong> Si vous activez la synchronisation, vos données sont stockées dans votre compte iCloud selon les conditions d'Apple.</li>
     </ul>
 
